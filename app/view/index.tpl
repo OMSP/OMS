@@ -1,5 +1,6 @@
 {include file="header.tpl"}
 
+<!--landing-->
 <div class="headtext bg">
   <div class="overlay"></div>
   <div class="overlay2"></div>
