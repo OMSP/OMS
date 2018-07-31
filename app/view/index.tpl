@@ -1,7 +1,7 @@
 {include file="header.tpl"}
 
 <div class="landing">
-  
+
 </div>
 <main role="main" class="container">
 
