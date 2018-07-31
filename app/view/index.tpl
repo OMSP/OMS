@@ -1,7 +1,11 @@
 {include file="header.tpl"}
 
 <div class="landing">
-
+  <div class="overlay"></div>
+  <div class="overlay2"></div>
+  <div class="overlaytext"><h1>test</h1></div>
+  <div class="overlay3"></div>
+  <div class="overlay4"></div>
 </div>
 <main role="main" class="container">
 
