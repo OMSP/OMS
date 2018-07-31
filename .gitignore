@@ -1,2 +1,2 @@
-app/cache/compile
-app/cache/cache
+/app/cache/cache
+/app/cache/compile
