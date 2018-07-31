@@ -1,36 +1,36 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-07-31 15:46:50
+/* Smarty version 3.1.32, created on 2018-07-31 19:24:17
   from 'C:\xampp\htdocs\app\view\other-page.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b60684a346c48_19113669',
+  'unifunc' => 'content_5b609b41ad1ac5_04504835',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '893941a647c0192b69f9c6de5ed8b06ca93ed1d6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\app\\view\\other-page.tpl',
-      1 => 1532907203,
+      1 => 1533057737,
       2 => 'file',
     ),
     'a288bd3973551242e9f30f590808b766c39156d9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\assets\\themes\\default\\header.tpl',
-      1 => 1532996218,
+      1 => 1533057737,
       2 => 'file',
     ),
     '67e27e5e7e94f37209f1077199f64f4ed68fccbe' => 
     array (
       0 => 'C:\\xampp\\htdocs\\assets\\themes\\default\\footer.tpl',
-      1 => 1532995805,
+      1 => 1533057737,
       2 => 'file',
     ),
   ),
   'cache_lifetime' => 120,
 ),true)) {
-function content_5b60684a346c48_19113669 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b609b41ad1ac5_04504835 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Default -->
 
 <!doctype html>
@@ -42,7 +42,7 @@ function content_5b60684a346c48_19113669 (Smarty_Internal_Template $_smarty_tpl)
     <meta name="author" content="OMS">
     <meta name="description" content="Your website description here">
     <link href="https://cdn.energysys.com/wp-content/uploads/2012/03/Energysys_avatar-logo-transparent-bg.png" rel="shortcut icon" type="image/png">
-    <title>My Website - Untitled Page</title>
+    <title>My Website - Other page</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
@@ -84,15 +84,15 @@ function content_5b60684a346c48_19113669 (Smarty_Internal_Template $_smarty_tpl)
 
     <div class="starter-template">
         <h1>Generated content</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, himenaeos felis in sem morbi imperdiet, augue tempor vestibulum justo tincidunt est. Ligula nulla habitant sociosqu tincidunt natoque rhoncus curae massa convallis hac quam, dolor tempor porta condimentum etiam sit hendrerit curabitur varius venenatis, mi nec aliquam nibh dignissim dictum himenaeos urna lacus fringilla. Accumsan facilisi fermentum orci phasellus suscipit adipiscing senectus vel eu, ultrices convallis congue placerat class vivamus quam rhoncus, ad arcu venenatis magnis sollicitudin litora dui elit. Duis orci nisi suscipit hac fringilla urna efficitur diam suspendisse, torquent convallis est morbi eget consectetur eros vivamus quam, porttitor natoque laoreet lorem condimentum tristique id eu. Sem facilisis lorem nostra tristique a enim ultrices adipiscing fringilla morbi maximus, proin efficitur dis cubilia tempus vestibulum nibh suscipit quisque augue. Class platea ullamcorper ipsum imperdiet bibendum eros nulla enim nec magnis torquent, semper sollicitudin dictum libero facilisis eu per a vivamus placerat, nibh nunc tellus quisque auctor morbi blandit tristique eget arcu. Suspendisse gravida ut a nisi commodo penatibus fermentum lectus vitae, fames justo vel ullamcorper malesuada himenaeos blandit tortor integer, enim eleifend in mauris congue lobortis suscipit augue. Netus orci nisi condimentum habitasse eleifend pulvinar class faucibus, elementum facilisi semper magna quisque urna fermentum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mattis leo pretium metus, lacus habitant duis montes congue hendrerit praesent placerat a turpis morbi, mollis molestie vestibulum bibendum cras quam egestas aenean per iaculis. Dictum mauris sociosqu orci nascetur in sagittis duis pretium id, felis nulla vestibulum conubia suscipit viverra fusce amet, aliquam facilisis leo morbi dis litora scelerisque tellus. Tristique accumsan ante rhoncus finibus diam phasellus commodo condimentum, iaculis interdum platea varius sociosqu cursus nascetur a, etiam curabitur tellus dolor maecenas neque tincidunt. Vel malesuada himenaeos luctus aenean massa vulputate integer nunc, purus at tellus netus porta id velit metus, lobortis montes nisi imperdiet nascetur conubia scelerisque. Ante nunc laoreet eleifend nostra volutpat dolor mi aliquam leo dis convallis, enim netus himenaeos lacus purus scelerisque velit tempor ridiculus etiam. Conubia urna netus cursus diam cubilia facilisi rutrum, felis tempus odio lacinia ante dictum, accumsan fames class velit sapien leo.</p>
 
-<p>Est accumsan netus diam suscipit blandit montes bibendum commodo feugiat, placerat tortor vestibulum nunc vehicula condimentum magnis lacinia nisi ullamcorper, integer conubia egestas ornare nam tempor porta phasellus. Consectetur lobortis velit dis est porta finibus enim massa, volutpat scelerisque eleifend eu dictumst conubia accumsan faucibus ornare, netus ultricies erat suspendisse praesent id morbi. Sociosqu efficitur diam non eleifend fusce felis rhoncus a orci lacinia faucibus, tempus luctus eu habitasse cubilia semper magnis vulputate interdum eros. Gravida sollicitudin nibh quam dapibus cubilia bibendum morbi iaculis, blandit vestibulum vel himenaeos litora curabitur tincidunt facilisi arcu, varius eros mus fringilla velit massa odio. In rhoncus nam accumsan a lacus scelerisque congue, class faucibus nostra suscipit lacinia efficitur placerat, cubilia ante vestibulum facilisis parturient mus. Nibh felis tristique efficitur parturient magna senectus enim lobortis at volutpat risus nec, dapibus suspendisse blandit erat vestibulum praesent conubia leo penatibus consequat litora. Ante purus nisi congue dui urna pharetra placerat ac feugiat, eget auctor nascetur amet metus egestas velit.</p>
+<p>Montes gravida ac sociosqu vulputate conubia purus habitant ridiculus nulla leo platea, litora euismod sed maximus habitasse tortor ante commodo nibh dolor, in orci faucibus eget maecenas primis sollicitudin porttitor nostra accumsan. Curae quam rutrum lobortis hendrerit varius ligula habitasse fermentum, facilisis platea quisque taciti commodo eros est dictumst interdum, primis integer eget sapien semper aliquet a. Suscipit maximus pretium cubilia nulla feugiat tortor, duis sociosqu torquent natoque facilisis pellentesque, mauris ultrices tincidunt fusce augue. Tristique ipsum nec fames at mus in parturient penatibus suscipit cubilia libero placerat, arcu mollis conubia viverra blandit nisi aliquam ex tempor felis sed. Ex tempus mollis class tincidunt faucibus feugiat, non pellentesque erat sociosqu facilisis lorem nulla, eleifend ultrices venenatis integer ornare. Laoreet ullamcorper et felis non sed faucibus magna maximus vulputate eget platea, feugiat mattis scelerisque primis litora finibus curae dictum lacinia sagittis, dignissim neque facilisi hac semper class malesuada tempus sociosqu a. Taciti per ut a tempor malesuada dis sodales condimentum, vestibulum scelerisque in massa mollis morbi cursus et, magnis mi amet dolor suscipit efficitur gravida.</p>
 
-<p>Ultricies curabitur vel inceptos quam phasellus nisl euismod aliquet habitant elementum facilisi laoreet dolor, himenaeos suscipit ornare imperdiet lacus tristique nulla maecenas nibh luctus varius scelerisque. Fermentum posuere venenatis himenaeos sit ipsum quam gravida vivamus volutpat justo montes cubilia, donec in lacus elit nam magnis luctus feugiat eros vulputate. Suscipit vehicula elit facilisi augue vel eget nisi nam, dictumst efficitur risus ultricies semper ac velit dictum tempor, rhoncus congue erat purus eros mollis dui. Nisl magna sed aenean facilisis ornare enim mus class maximus diam netus eleifend leo mattis turpis, metus etiam vel orci ultrices accumsan commodo ex adipiscing euismod eros nunc volutpat penatibus. Tincidunt nam dapibus eleifend elit semper justo morbi metus nulla, aliquam dolor odio potenti curae lacus pulvinar netus dictumst, sem sollicitudin erat vivamus scelerisque orci rhoncus tempor. Senectus nostra vestibulum condimentum eleifend amet mollis, elementum fermentum mus orci curabitur diam venenatis, nam placerat tellus malesuada turpis. Bibendum tellus netus ac nam felis integer nibh metus luctus venenatis curabitur, id nascetur sed sapien feugiat proin platea sagittis inceptos gravida, odio fermentum finibus natoque mi etiam donec ullamcorper tristique turpis. Porta sem mus suspendisse arcu sagittis, tempor netus pellentesque cras lacinia vulputate, ridiculus dictumst est purus. Imperdiet volutpat leo felis vulputate libero risus laoreet tincidunt, non aliquet etiam vitae rhoncus ridiculus aenean, ad suscipit curae quis mus dui facilisis. Habitant fames curae hac enim aenean netus ornare, fermentum nunc neque congue venenatis.</p>
+<p>Vitae amet blandit ultricies dapibus magnis duis aptent potenti ante enim, neque finibus congue ipsum felis faucibus turpis luctus sagittis, urna nec litora pretium placerat curabitur aliquam in pulvinar. Ipsum interdum tellus pellentesque ut et sit ultricies, justo congue mi urna litora risus elementum laoreet, ligula quis libero mauris dictum viverra. A vehicula vel volutpat nulla mattis accumsan potenti litora ridiculus aenean tempor, sapien class vestibulum tellus odio lobortis urna pulvinar quisque semper. Praesent rhoncus facilisis efficitur consequat lobortis aliquet mauris lorem auctor, dis vivamus elit per cursus lacinia placerat. Platea venenatis mi velit cras dis semper non varius fermentum sollicitudin tellus nulla, turpis sodales purus sagittis suscipit sem viverra ex litora tempor pulvinar. Elit sem felis luctus viverra nostra convallis gravida velit per dignissim cras, malesuada fermentum rhoncus ut ipsum sollicitudin mollis tristique duis dis sit placerat, curabitur arcu facilisi interdum pretium erat elementum tincidunt risus vestibulum. Consectetur mus adipiscing amet sociosqu potenti habitant vulputate dictumst suspendisse sed, auctor elit ipsum fermentum taciti ac mi duis dictum convallis, suscipit magna luctus tortor aliquam diam vestibulum lobortis massa.</p>
 
-<p>Porttitor venenatis arcu sollicitudin conubia ultrices nam dui, magna semper fames praesent quam id, commodo tellus metus lacus tortor duis. Donec inceptos quisque nunc metus leo ex curabitur, lorem viverra ad natoque velit nibh, ac posuere dignissim mi aliquet vitae. Porttitor ut natoque non mollis semper nisi vehicula venenatis, at varius netus class lacus proin commodo interdum bibendum, vel hac ante maecenas ad mi tempus.</p>
+<p>Varius ex pellentesque euismod egestas commodo tempus quisque, fusce magnis ornare taciti vivamus placerat, sollicitudin malesuada ut condimentum vel mi. Ex commodo facilisi vitae primis vestibulum iaculis, blandit dolor vulputate et maximus consequat vel, netus fermentum tincidunt suscipit odio. Sodales euismod mollis arcu luctus curae sociosqu mauris risus, lacinia justo netus lobortis augue primis habitant a aliquam, dolor tristique molestie libero etiam integer potenti. Cras nascetur habitasse quis quam eleifend sodales integer, bibendum ac tristique aptent efficitur turpis rutrum, nec purus primis vitae inceptos leo.</p>
 
-<p>Eget sem ipsum vitae malesuada mauris dictum mi vestibulum, quis metus vel mollis accumsan lacus mus hendrerit, ex placerat aliquet laoreet nibh sociosqu eros. Praesent sollicitudin ex gravida consectetur penatibus amet ac eros tempus eget lorem dignissim sodales ad, convallis fermentum orci euismod posuere quis nulla ultricies vel tempor velit enim neque. Parturient montes egestas pulvinar vulputate tortor ligula habitasse mus, dictumst consectetur eleifend eget purus fusce justo litora adipiscing, augue tristique phasellus viverra magnis dignissim convallis.</p><h3>Generated 07/31/2018 03:46:50 pm</h3>
+<p>Nostra torquent lorem semper maximus orci habitant congue, molestie blandit vestibulum pellentesque euismod aliquam dolor conubia, pulvinar praesent venenatis nisi volutpat porta. Luctus tellus quam aliquet convallis sit elit dignissim, himenaeos eleifend porta torquent volutpat platea, sem cras vivamus duis efficitur diam. Eros tempus sapien at aliquet faucibus aliquam vel dis, urna netus finibus venenatis nec magnis proin porta, condimentum sollicitudin dui consectetur orci inceptos praesent. Dignissim enim sagittis morbi dolor primis lobortis himenaeos inceptos vehicula, finibus pretium feugiat turpis fusce bibendum mattis elit, ex libero mi metus praesent consequat purus hendrerit. Sit placerat proin fames duis praesent nisi magnis vivamus venenatis dignissim pulvinar vehicula rutrum aliquet, nibh euismod lacus tempus erat convallis semper aenean ligula malesuada platea finibus. Leo duis inceptos ex diam metus adipiscing dictumst, taciti vehicula nulla luctus ante maximus hendrerit iaculis, euismod potenti dui suscipit elit platea. Efficitur feugiat fringilla fames rutrum justo ridiculus at erat, luctus penatibus leo faucibus massa sapien pretium dis amet, malesuada felis aliquam pellentesque in habitasse sem. Aliquet dignissim a etiam urna commodo gravida id vitae, finibus morbi dolor ridiculus primis pretium tellus tincidunt, lobortis molestie mi erat viverra ac ut. Dignissim praesent morbi convallis laoreet augue duis pulvinar placerat luctus, risus aliquet ornare hac ultricies dictum maecenas leo sociosqu dapibus, purus integer parturient est varius enim torquent pretium. Montes hac quisque aptent magna turpis pellentesque erat fames, aliquam ut lacinia porttitor eget adipiscing eleifend, sagittis sed ipsum justo inceptos suscipit fringilla.</p><h3>Generated 07/31/2018 07:24:17 pm</h3>
         <p>Cached with smarty to simulate loading content from a database just once.</p>
     </div>
 

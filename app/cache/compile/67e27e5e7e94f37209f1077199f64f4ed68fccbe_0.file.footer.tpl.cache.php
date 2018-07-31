@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-07-31 02:10:12
+/* Smarty version 3.1.32, created on 2018-07-31 19:24:14
   from 'C:\xampp\htdocs\assets\themes\default\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b5fa8e45b42a5_65498946',
+  'unifunc' => 'content_5b609b3ecb6429_46565215',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '67e27e5e7e94f37209f1077199f64f4ed68fccbe' => 
     array (
       0 => 'C:\\xampp\\htdocs\\assets\\themes\\default\\footer.tpl',
-      1 => 1532995805,
+      1 => 1533057737,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b5fa8e45b42a5_65498946 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '18472792685b5fa8e459e3e3_74134476';
+function content_5b609b3ecb6429_46565215 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '13242205635b609b3eb57769_51115424';
 ?>
 <!-- Javascript -->
 <footer>
