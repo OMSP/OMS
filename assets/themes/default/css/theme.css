@@ -4,8 +4,25 @@ body {
 }
 .footerOMS {
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  background: #000;
+  height: 80px;
+}
+
+.footerOMS .container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.footerOMS .container .text-muted {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
