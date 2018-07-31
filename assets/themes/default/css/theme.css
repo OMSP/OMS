@@ -12,12 +12,6 @@ body {
   height: 80px;
 }
 
-.footerOMS .container {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
 .footerOMS .container .text-muted {
   position: absolute;
   bottom: 0;
