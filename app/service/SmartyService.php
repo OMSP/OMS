@@ -72,8 +72,7 @@ final class SmartyService
         if ($this->caching) {
             $smarty->caching = $this->caching;
             $smarty->cache_lifetime = $this->cachingLifetime;
-            $smarty->setCaching(Smarty::CACHING_LIFETIME_CURRENT);
-            $smarty->setCompileCheck(true);
+            $smarty->clearAllCache();
         }
 
         return $smarty;
