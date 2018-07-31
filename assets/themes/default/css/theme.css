@@ -2,21 +2,10 @@ html, body {
   padding-top: 0rem; /* Makes sure the content does not hit the navigation bar */
   text-align: center;
   height: 100%;
+  background: #eee;
 }
 
-.bg {
-    background-image: url('https://images.wallpaperscraft.com/image/cliff_loneliness_ocean_124788_3840x2400.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.headtext {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*footer*/
 
 .footerOMS {
   display: none;
@@ -38,23 +27,39 @@ html, body {
   font-size: 12px;
 }
 
-.landing {
-  position: relative;
-  width: 100%;
-  height: 90%;
-  background-image: url('https://images.wallpaperscraft.com/image/cliff_loneliness_ocean_124788_3840x2400.jpg');
-  background-size: cover; /* or contain depending on what you want */
-  background-position: center center;
-  background-repeat: no-repeat;
+
+/*landing*/
+
+/*background and text*/
+.bg {
+    background-image: url('https://images.wallpaperscraft.com/image/cliff_loneliness_ocean_124788_3840x2400.jpg');
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.headtext {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headtext h1 {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*overlays*/
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
-  height: 70px;
+  background-color: #343a40;
+  height: 100px;
 }
 
 .overlay2 {
@@ -62,17 +67,8 @@ html, body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
-  height: 70px;
-  margin: 30px 0;
-  transform: rotate(-2deg) scale(1) translate(0px);
-}
-
-.overlaytext h1 {
-  display: flex;
-  justify-content: center;
-  color: #000;
-  height: 70px;
+  background-color: #343a40;
+  height: 100px;
   margin: 30px 0;
   transform: rotate(-2deg) scale(1) translate(0px);
 }
@@ -82,8 +78,8 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
-  height: 70px;
+  background-color: #eee;
+  height: 100px;
   margin: 30px 0;
   transform: rotate(-2deg) scale(1) translate(0px);
 }
@@ -93,11 +89,13 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
-  height: 70px;
+  background: #eee;
+  height: 100px;
 }
+
+/*page content*/
 
 .container {
   height: 100%;
+  background: #eee;
 }
-/**/
