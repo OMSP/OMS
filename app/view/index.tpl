@@ -1,12 +1,16 @@
 {include file="header.tpl"}
 
-<div class="landing">
+<div class="headtext bg">
+       <h1>Text</h1>
+</div>
+
+<!--<div class="landing">
   <div class="overlay"></div>
   <div class="overlay2"></div>
   <div class="overlaytext"><h1>test tekst</h1></div>
   <div class="overlay3"></div>
   <div class="overlay4"></div>
-</div>
+</div>-->
 <main role="main" class="container">
 
 

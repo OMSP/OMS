@@ -4,6 +4,20 @@ html, body {
   height: 100%;
 }
 
+.bg {
+    background-image: url('https://images.wallpaperscraft.com/image/cliff_loneliness_ocean_124788_3840x2400.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headtext {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footerOMS {
   display: none;
   text-align: center;

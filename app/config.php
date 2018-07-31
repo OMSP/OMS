@@ -35,4 +35,5 @@ $config = [
     'phpversion'        => phpversion(),
     'credit'            => "OMSP",
     'crediturl'         => "https://omsp.org",
+    'charset'           => "utf-8",
 ];
