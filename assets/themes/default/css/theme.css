@@ -1,0 +1,7 @@
+body {
+  padding-top: 3rem; /* Makes sure the content does not hit the navigation bar */
+  text-align: center;
+}
+.footerOMS {
+  text-align: center;
+}

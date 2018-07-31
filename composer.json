@@ -1,0 +1,17 @@
+{
+    "name": "OMSP",
+    "description": "Simple and flexible content management system.",
+    "authors": [
+        {
+            "name": "Calvin Heldoorn",
+            "email": "contact@calvin.ws"
+        }
+        {
+            "name": "Nathan Pipes",
+            "email": "nathan@aussiehostingservices.com"
+        }
+    ],
+    "require": {
+        "f3l1x/kleinsmarty": "dev-master"
+    }
+}
