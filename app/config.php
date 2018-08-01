@@ -13,7 +13,9 @@ $config = [
     'basePath'          => "http://localhost", // Your website url and installation path, ex; http://localhost/oms.
     'homePage'          => "-", // Ability to change the homePage file will come in a future update.
     'errorDocument'     => "error.tpl", // Ability to change the homePage file will come in a future update.
-    'credityn'          => "true", // Credits, set to true if you want to add credits to OMS in your footer.
+    'credityn'          => "true", // Credits, set to true if you want to add credits to OpenCMS in your footer.
+    'homepageJumbotron' => "true", // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
+    'navbaryn'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
 
     // Database
     'DatabaseServer'    => "localhost", // Database server you want to connect to.
@@ -30,10 +32,11 @@ $config = [
     'corever'           => "1",
     'corevernr'         => "00001",
     'corestatus'        => "dev",
-    // 'omsfullver'        => "OMS R".$config['corever'].".".$config['corevernr']."-".$config['corestatus'],
+    // 'omsfullver'        => "OpenCMS R".$config['corever'].".".$config['corevernr']."-".$config['corestatus'],
     'year'              => date("Y"),
     'phpversion'        => phpversion(),
     'credit'            => "OMSP",
     'crediturl'         => "https://omsp.org",
     'charset'           => "utf-8",
+    'bootstrapyn'       => "true",
 ];

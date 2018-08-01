@@ -20,6 +20,7 @@
 
 <body>
 <!-- Navigation bar, you can add or remove items, but be aware that you might break our code -->
+{if $navbaryn eq 'true'}
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="/">{$title}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,6 +45,7 @@
         </form>
     </div>
 </nav>
+{/if}
 
 <!-- This is some theme specific HTML, it is suggested to keep this so the navbar does not hit the content -->
 <br>
