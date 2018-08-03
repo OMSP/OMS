@@ -15,7 +15,7 @@
     <!-- If required, you can add css to your theme as shown here; -->
     <link href="{$basePath}/assets/themes/{$theme}/css/theme.css" rel="stylesheet"> <!-- The basePath and theme variables are both defined inside the configuration file and should not be edited. -->
     <!-- These are OpenCMS' standard CSS files, they can be removed or edited, but it's not adviced. -->
-    {if $bootstapyn eq 'true'}
+    {if $bootstrapyn eq 'true'}
     <link href="{$basePath}/assets/css/bootstrap.min.css" rel="stylesheet">
     {/if}
     <!-- As you can see, use of external stylesheets is also supported -->
