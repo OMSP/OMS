@@ -4,7 +4,7 @@ html, body {
   padding-top: 0rem; /* Makes sure the content does not hit the navigation bar */
   text-align: center;
   height: 100%;
-  background: #eee;
+  background: #e5e5e5;
 }
 
 /*footer*/
@@ -80,7 +80,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #eee;
+  background-color: #e5e5e5;
   height: 100px;
   margin: 30px 0;
   transform: rotate(-2deg) scale(1) translate(0px);
@@ -91,7 +91,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #eee;
+  background: #e5e5e5;
   height: 100px;
 }
 
@@ -99,6 +99,29 @@ html, body {
 
 .container {
   height: 100%;
-  background: #eee;
+  background: #e5e5e5;
   padding-top: 100px;
+}
+
+/*Custom scrollingbar*/
+
+/* width of the scrollbar */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+    background: #343a40;
+    opacity: 1;
+}
+
+/* Handle of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #e5e5e5;
 }
