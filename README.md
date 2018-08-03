@@ -8,8 +8,18 @@ A simple to use open source content management system
 
 First of all, we really want to thank you for using OpenCMS
 
-###   navigation
+### Navigation
 * [Installation](#installation)
+* [Configuration](#configuration)
+* [Themes](#themes)
+* [Building themes](#building-themes)
+* [Bootstrap](#bootstrap)
+
+### Installation
+
+Text
+
+### Configuration
 
 ## Crediting
 
