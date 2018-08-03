@@ -6,7 +6,10 @@ A simple to use open source content management system
 
 ## Getting Started
 
+First of all, we really want to thank you for using OpenCMS
 
+###   navigation
+  test
 
 ## Crediting
 
