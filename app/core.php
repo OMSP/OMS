@@ -15,6 +15,7 @@ define('VIEW_DIR', APP_DIR . '/view');
 require_once APP_DIR . '/vendor/autoload.php';
 require_once APP_DIR . '/config.php';
 require_once APP_DIR . '/loader.php';
+require_once APP_DIR . '/lang.php';
 
 // Create klein.php
 $klein = new Klein();

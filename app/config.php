@@ -24,7 +24,7 @@ $config = [
     'DatabaseName'      => "omswip", // Database name you have set, can't be empty.
 
     // Theme
-    'theme'             => "template", // Enter the theme name here
+    'theme'             => "default", // Enter the theme name here
 
     // Widgets
 
