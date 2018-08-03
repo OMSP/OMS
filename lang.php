@@ -9,6 +9,5 @@
   }
   $json = file_get_contents($file);
   $lang = json_decode($json, true);
-  $lang = print_r($lang);
   echo $lang;
 ?>
