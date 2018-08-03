@@ -24,15 +24,14 @@ $config = [
     'DatabaseName'      => "omswip", // Database name you have set, can't be empty.
 
     // Theme
-    'theme'             => "default", // Enter the theme name here
+    'theme'             => "template", // Enter the theme name here
 
     // Widgets
 
     // Advanced, DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
     'corever'           => "1",
-    'corevernr'         => "00001",
+    'corevernr'         => "20983",
     'corestatus'        => "dev",
-    // 'omsfullver'        => "OpenCMS R".$config['corever'].".".$config['corevernr']."-".$config['corestatus'],
     'year'              => date("Y"),
     'phpversion'        => phpversion(),
     'credit'            => "OMSP",
@@ -40,3 +39,6 @@ $config = [
     'charset'           => "utf-8",
     'bootstrapyn'       => "true",
 ];
+
+// Compiled
+$config["omsfullver"] = "OpenCMS R".$config['corever'].".".$config['corevernr']."-".$config['corestatus'];
