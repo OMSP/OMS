@@ -18,7 +18,7 @@ First of all, we really want to thank you for using OpenCMS
 ### Installation
 
 **Server requirements: PHP, mysqli, html, css and js**
-* [Download](https://github.com/OMSP/OpenCMS/archive/master.zip) OpenCMS or GIT clone it into a folder: git clone https://github.com/OMSP/OpenCMS
+* [Download](https://github.com/OMSP/OpenCMS/archive/master.zip) OpenCMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OpenCMS```
 * Start your server, then go to the website (localhost or an other domain), you will automaticly get redicted to the setup.
 * Follow all the steps in the setup, then follow the steps in [the configuration](#configuration).
 
