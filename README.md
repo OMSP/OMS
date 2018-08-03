@@ -17,7 +17,7 @@ First of all, we really want to thank you for using OMS!
 
 ### Installation
 
-**Server requirements: PHP, mysqli, html, css and js**
+**OMSP requires a web server running PHP 5.2 or greater, a MySQL database, HTML, CSS and JS**
 * [Download](https://github.com/OMSP/OpenCMS/archive/master.zip) OpenCMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OpenCMS```
 * Start your server and visit your website (localhost or any other domain), you will automaticaly get redicted to the setup.
 * Follow all the steps in the setup, then follow the steps in the [configuration](#configuration).
