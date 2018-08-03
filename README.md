@@ -9,7 +9,7 @@ A simple to use open source content management system
 First of all, we really want to thank you for using OpenCMS
 
 ###   navigation
-  test
+* [Installation](#installation)
 
 ## Crediting
 
