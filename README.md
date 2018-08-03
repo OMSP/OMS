@@ -17,9 +17,15 @@ First of all, we really want to thank you for using OpenCMS
 
 ### Installation
 
-Text
+* [Download](https://github.com/OMSP/OpenCMS/archive/master.zip) OpenCMS or GIT clone it into a folder: https://github.com/OMSP/OpenCMS.git
 
 ### Configuration
+
+### Themes
+
+### Building-themes
+
+### Bootstrap
 
 ## Crediting
 
