@@ -1,8 +1,8 @@
 [![Github All Releases](https://img.shields.io/github/downloads/tapiraat/opencms/total.svg?style=for-the-badge)](https://github.com/OMSP/OpenCMS)
 
-# OMSP
+# OMS Project
 
-A simple to use open source content management system
+A simple to use open source content management system.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ First of all, we really want to thank you for using OMS!
 
 ### Installation
 
-**OMSP requires a web server running PHP 5.2 or greater, a MySQL database, HTML, CSS and JS**
+**OMS requires a web server running PHP 5.2 or greater, a MySQL database, HTML, CSS and JS**
 * [Download](https://github.com/OMSP/OpenCMS/archive/master.zip) OpenCMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OpenCMS```
 * Start your server and visit your website (localhost or any other domain), you will automaticaly get redicted to the setup.
 * Follow all the steps in the setup, then follow the steps in the [configuration](#configuration).
@@ -49,6 +49,7 @@ Experiencing problems regarding the installation? Visit our [Discord](https://di
 * **Calvin Heldoorn** - *Initial work* - [Tapiraat](https://calvin.ws)
 * **Nathan Pipes** - *Huge contributions* - [Grimston](https://aussiehostingservices.com)
 * **Micha de Vries** - *Huge contributions* - [Kearfy](https://mystem.tk)
+* **Alexandru Ciurea** - *Giving help, a lot of help* - Alexandru_C
 * List of other [contributors](https://github.com/OMSP/OpenCMS/contributors) who contributed to this project.
 
 ## Projects used

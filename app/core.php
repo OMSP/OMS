@@ -16,6 +16,7 @@ require_once APP_DIR . '/vendor/autoload.php';
 require_once APP_DIR . '/config.php';
 require_once APP_DIR . '/loader.php';
 require_once APP_DIR . '/lang.php';
+require_once APP_DIR . '/dbconn.php';
 
 // Create klein.php
 $klein = new Klein();
@@ -67,6 +68,7 @@ foreach ($files as $line) {
 }
 $service->smarty->assign("siteLinks", $siteLinks);
 $service->smarty->assign($lang);
+$service->smarty->assign($connection);
 
 // Run!
 $klein->dispatch();

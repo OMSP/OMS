@@ -3,12 +3,8 @@
     "description": "Simple and flexible content management system.",
     "authors": [
         {
-            "name": "Calvin Heldoorn",
-            "email": "contact@calvin.ws"
-        }
-        {
-            "name": "Nathan Pipes",
-            "email": "nathan@aussiehostingservices.com"
+            "name": "Check credits for information on contributors.",
+            "email": "-"
         }
     ],
     "require": {

@@ -1,11 +1,7 @@
 <?php
 
-$connection = mysqli_connect($DatabaseServer, $DatabaseUser, $DatabasePass, $DatabaseName);
+require_once APP_DIR . '/config.php';
 
-if ($connection->ping()) {
-    printf ("Our connection is ok!\n");
-} else {
-    printf ("Error: %s\n", $connection->error);
-}
+$connection = mysqli_connect($config['DatabaseServer'], $config['DatabaseUser'], $config['DatabasePass'], $config['DatabaseName']);
 
 ?>
