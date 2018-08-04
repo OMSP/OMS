@@ -1,6 +1,6 @@
 [![Github All Releases](https://img.shields.io/github/downloads/tapiraat/opencms/total.svg?style=for-the-badge)](https://github.com/OMSP/OpenCMS)
 
-# OMS
+# OMSP
 
 A simple to use open source content management system
 
@@ -24,11 +24,19 @@ First of all, we really want to thank you for using OMS!
 
 ### Configuration
 
+* Steps to configure OpenCMS will come soon...
+
 ### Themes
+
+* Steps to configure Themes in OpenCMS will come soon...
 
 ### Building Themes
 
+* Steps to build your own Themes for OpenCMS will come soon...
+
 ### Bootstrap
+
+* We use Bootstrap to style our default given theme, you can choose to not use bootstrap, but it is highly recommended.
 
 ## Feedback
 
