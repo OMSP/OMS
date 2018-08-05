@@ -3,11 +3,17 @@
     "description": "Simple and flexible content management system.",
     "authors": [
         {
-            "name": "Check credits for information on contributors.",
-            "email": "-"
+            "name": "Check credits for information on contributors."
         }
     ],
     "require": {
-        "f3l1x/kleinsmarty": "dev-master"
+        "php": ">= 5.5",
+        "klein/klein": "~2.1.0",
+        "smarty/smarty": "~3.1.0",
+        "joshtronic/php-loremipsum": "1.0.3",
+        "filp/whoops": "2.2.0"
+    },
+    "config": {
+        "vendor-dir": "app/vendor"
     }
 }

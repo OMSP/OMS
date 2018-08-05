@@ -15,6 +15,14 @@ class ComposerStaticInit647f36efebe747571c63c862161181d7
         array (
             'joshtronic\\' => 11,
         ),
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
         'K' => 
         array (
             'Klein\\' => 6,
@@ -25,6 +33,14 @@ class ComposerStaticInit647f36efebe747571c63c862161181d7
         'joshtronic\\' => 
         array (
             0 => __DIR__ . '/..' . '/joshtronic/php-loremipsum/src',
+        ),
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
         'Klein\\' => 
         array (

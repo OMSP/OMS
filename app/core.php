@@ -14,13 +14,27 @@ define('VIEW_DIR', APP_DIR . '/view');
 // Register loaders
 require_once APP_DIR . '/vendor/autoload.php';
 require_once APP_DIR . '/config.php';
+
+//Enable debug system if in development mode
+$DEBUG_MODE = !empty($config["corestatus"]) && strtolower($config["corestatus"]) == "dev";
+if($DEBUG_MODE) {
+    $whoops = new \Whoops\Run;
+    $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+    $whoops->register();
+}
+
 require_once APP_DIR . '/loader.php';
 require_once APP_DIR . '/lang.php';
 require_once APP_DIR . '/dbconn.php';
 
+
 // Create klein.php
 $klein = new Klein();
 $service = $klein->service();
+
+//Create Database service object
+$service->Database = $connection;
+
 
 // Register Smarty
 $smarty = new SmartyService();
@@ -28,9 +42,11 @@ $smarty->setCacheDir(CACHE_DIR . '/cache');
 $smarty->setCompileDir(CACHE_DIR . '/compile');
 $smarty->setCaching(defined('CACHE_DIR'));
 $smarty->setCachingLifetime(120);
-$smarty->setCaching(true); // Turn on caching - ONLY use this if you are going to use is_cache on EVERY page.
+
+//If we are in development mode, we want to disable caching as this is not going to help
+$smarty->setCaching(!$DEBUG_MODE); // Turn on caching - ONLY use this if you are going to use is_cache on EVERY page.
 // If you want to restart the site delete the files under app/cache/cache
-$smarty->setDebugging(true); // Enable the smarty console so you can see what it's doing
+$smarty->setDebugging($DEBUG_MODE); // Enable the smarty console so you can see what it's doing
 $service->smarty = $smarty->create();
 $service->smarty->setTemplateDir(array(
     'one' => "./assets/themes/{$config["theme"]}",
@@ -68,7 +84,6 @@ foreach ($files as $line) {
 }
 $service->smarty->assign("siteLinks", $siteLinks);
 $service->smarty->assign($lang);
-$service->smarty->assign($connection);
 
 // Run!
 $klein->dispatch();

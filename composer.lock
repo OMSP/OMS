@@ -1,43 +1,117 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0de109dbc88117a61e562821cf70e45a",
+    "content-hash": "b89e65de40c8714737cbce9126f81d20",
     "packages": [
         {
-            "name": "f3l1x/kleinsmarty",
-            "version": "dev-master",
+            "name": "filp/whoops",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/f3l1x/KleinPHP-SmartyPHP.git",
-                "reference": "53e185e4e25f47deb8951db16547517bf18ba3a4"
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/f3l1x/KleinPHP-SmartyPHP/zipball/53e185e4e25f47deb8951db16547517bf18ba3a4",
-                "reference": "53e185e4e25f47deb8951db16547517bf18ba3a4",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/181c4502d8f34db7aed7bfe88d4f87875b8e947a",
+                "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a",
                 "shasum": ""
             },
             "require": {
-                "klein/klein": "~2.1.0",
-                "php": ">= 5.5",
-                "smarty/smarty": "~3.1.0"
+                "php": "^5.5.9 || ^7.0",
+                "psr/log": "^1.0.1"
             },
-            "type": "project",
+            "require-dev": {
+                "mockery/mockery": "^0.9 || ^1.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Milan Felix Sulc",
-                    "homepage": "http://jfx.cz"
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
                 }
             ],
-            "description": "Klein.php router with Smarty template engine.",
-            "time": "2015-09-10T11:50:21+00:00"
+            "description": "php error handling for cool kids",
+            "homepage": "https://filp.github.io/whoops/",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "throwable",
+                "whoops"
+            ],
+            "time": "2018-03-03T17:56:25+00:00"
+        },
+        {
+            "name": "joshtronic/php-loremipsum",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joshtronic/php-loremipsum.git",
+                "reference": "24b768a63091400200bf70d9f278d0569ae78a5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joshtronic/php-loremipsum/zipball/24b768a63091400200bf70d9f278d0569ae78a5c",
+                "reference": "24b768a63091400200bf70d9f278d0569ae78a5c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "joshtronic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Sherman",
+                    "email": "hello@joshtronic.com",
+                    "homepage": "https://joshtronic.com"
+                }
+            ],
+            "description": "Lorem ipsum generator in PHP without dependencies",
+            "homepage": "https://github.com/joshtronic/php-loremipsum",
+            "keywords": [
+                "generator",
+                "ipsum",
+                "lorem"
+            ],
+            "time": "2018-01-09T05:57:45+00:00"
         },
         {
             "name": "klein/klein",
@@ -96,6 +170,53 @@
             "time": "2017-02-01T23:08:58+00:00"
         },
         {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
             "name": "smarty/smarty",
             "version": "v3.1.32",
             "source": {
@@ -152,11 +273,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "f3l1x/kleinsmarty": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">= 5.5"
+    },
     "platform-dev": []
 }

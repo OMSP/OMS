@@ -7,5 +7,7 @@ $baseDir = dirname(dirname($vendorDir));
 
 return array(
     'joshtronic\\' => array($vendorDir . '/joshtronic/php-loremipsum/src'),
+    'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Klein\\' => array($vendorDir . '/klein/klein/src/Klein'),
 );
