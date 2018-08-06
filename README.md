@@ -49,13 +49,14 @@ Experiencing problems regarding the installation? Visit our [Discord](https://di
 * **Calvin Heldoorn** - *Initial work* - [Tapiraat](https://calvin.ws)
 * **Nathan Pipes** - *Huge contributions* - [Grimston](https://aussiehostingservices.com)
 * **Micha de Vries** - *Huge contributions* - [Kearfy](https://mystem.tk)
-* **Alexandru Ciurea** - *Giving help, a lot of help* - Alexandru_C
+* **Alexandru Ciurea** - *Behind the scenes contributions* - Alexandru_C
 * List of other [contributors](https://github.com/OMSP/OpenCMS/contributors) who contributed to this project.
 
 ## Projects used
 
 * [Smarty](https://smarty.net) - Template engine used
 * [Klein](https://github.com/klein/klein.php) - Router used
+* [Whoops](https://github.com/filp/whoops) - PHP error handler used
 
 ## License
 

@@ -11,7 +11,7 @@
         "klein/klein": "~2.1.0",
         "smarty/smarty": "~3.1.0",
         "joshtronic/php-loremipsum": "1.0.3",
-        "filp/whoops": "2.2.0"
+        "filp/whoops": "dev-master"
     },
     "config": {
         "vendor-dir": "app/vendor"

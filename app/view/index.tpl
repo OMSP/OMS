@@ -13,7 +13,7 @@
 
 <main role="main" class="container">
     <div class="starter-template">
-        <h1>{$title} | Basic homepage | {$searchfield}</h1>
+        <h1>{$title} | Basic homepage</h1>
         <p class="lead">You are running; {$omsfullver}.<br> All you get is this text and a mostly barebones HTML document.</p>
     </div>
 

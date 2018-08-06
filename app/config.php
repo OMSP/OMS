@@ -35,14 +35,15 @@ $config = [
 
     // Widgets
 
-    // Advanced, DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
-    'corever'           => "1",
-    'corevernr'         => "20983",
-    'corestatus'        => "dev",
-    'year'              => date("Y"),
-    'phpversion'        => phpversion(),
-    'credit'            => "OMSP",
-    'crediturl'         => "https://omsp.org",
+    // Advanced, WARNING DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
+    'debug'             => "true", // WARNING; Using this on live sites is dangerous, as it exposes PHP code!
+    'corever'           => "1", // Do not touch this
+    'corevernr'         => "20983", // Do not touch this
+    'corestatus'        => "dev", // Do not touch this
+    'year'              => date("Y"), // Do not touch this
+    'phpversion'        => phpversion(), // Do not touch this
+    'credit'            => "OMSP", // Do not touch this
+    'crediturl'         => "https://omsp.org", // Do not touch this
     'charset'           => "utf-8",
     'bootstrapyn'       => "true",
 
