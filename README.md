@@ -1,4 +1,4 @@
-[![Github All Releases](https://img.shields.io/github/downloads/tapiraat/opencms/total.svg?style=for-the-badge)](https://github.com/OMSP/OpenCMS)
+[![Github All Releases](https://img.shields.io/github/downloads/OMSP/OMS/total.svg?style=for-the-badge)](https://github.com/OMSP/OMS)
 
 # OMS Project
 
@@ -18,21 +18,21 @@ First of all, we really want to thank you for using OMS!
 ### Installation
 
 **OMS requires a web server running PHP 5.2 or greater, a MySQL database, HTML, CSS and JS**
-* [Download](https://github.com/OMSP/OpenCMS/archive/master.zip) OpenCMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OpenCMS```
+* [Download](https://github.com/OMSP/OMS/archive/master.zip) OpenCMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OMS```
 * Start your server and visit your website (localhost or any other domain), you will automaticaly get redicted to the setup.
 * Follow all the steps in the setup, then follow the steps in the [configuration](#configuration).
 
 ### Configuration
 
-* Steps to configure OpenCMS will come soon...
+* Steps to configure OMS will come soon...
 
 ### Themes
 
-* Steps to configure Themes in OpenCMS will come soon...
+* Steps to configure Themes in OMS will come soon...
 
 ### Building Themes
 
-* Steps to build your own Themes for OpenCMS will come soon...
+* Steps to build your own Themes for OMS will come soon...
 
 ### Bootstrap
 
@@ -50,7 +50,7 @@ Experiencing problems regarding the installation? Visit our [Discord](https://di
 * **Nathan Pipes** - *Huge contributions* - [Grimston](https://aussiehostingservices.com)
 * **Micha de Vries** - *Huge contributions* - [Kearfy](https://mystem.tk)
 * **Alexandru Ciurea** - *Behind the scenes contributions* - Alexandru_C
-* List of other [contributors](https://github.com/OMSP/OpenCMS/contributors) who contributed to this project.
+* List of other [contributors](https://github.com/OMSP/OMS/contributors) who contributed to this project.
 
 ## Projects used
 

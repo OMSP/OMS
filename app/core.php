@@ -11,7 +11,7 @@ define('CACHE_DIR', APP_DIR . '/cache');
 define('VENDOR_DIR', APP_DIR . '/vendor');
 define('VIEW_DIR', APP_DIR . '/view');
 
-// Making cache folders
+// Making cache folders if non existant
 if (!is_dir(CACHE_DIR)) {
     mkdir(CACHE_DIR."/cache", 0777, true);
     mkdir(CACHE_DIR."/compile", 0777, true);
@@ -66,7 +66,7 @@ $service->viewDir = VIEW_DIR;
 $klein->onHttpError(function ($code, $router) {
     $router->service()->smarty->assign($router->service()->smartyParams);
     $router->service()->smarty->assign('errorCode', $code);
-    $router->service()->smarty->display($router->service()->smartyParams["errorDocument"]);
+    $router->service()->smarty->display($router->service()->smartyParams["errorPageInt"]);
 });
 
 // Register routers

@@ -17,8 +17,8 @@ $config = [
     // General
     'basePath'          => "http://localhost", // Your website url and installation path, ex; http://localhost/oms.
     'homePage'          => "index", // Ability to change the homePage file will come in a future update.
-    'homeExtension'     => "tpl", // Standard Smarty template extension
-    'errorDocument'     => "error.tpl", // Ability to change the homePage file will come in a future update.
+    'errorDocument'     => "error", // Ability to change the homePage file will come in a future update.
+    'pageExtension'     => "tpl", // Standard Smarty template extension
     'credityn'          => "true", // Credits, set to true if you want to add credits to OpenCMS in your footer.
     'homepageJumbotron' => "true", // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
     'navbaryn'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
@@ -51,11 +51,12 @@ $config = [
 
 // Compiled
 
-// Advanced, DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
+// Advanced, WARNING DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
 
 // General compiled variables
 $config["omsfullver"] = "OpenCMS R".$config['corever']." (".$config['corever'].".".$config['corevernr']."-".$config['corestatus'].")";
-$config["homePageInt"] = $config['homePage'].".".$config['homeExtension'];
+$config["homePageInt"] = $config['homePage'].".".$config['pageExtension'];
+$config["errorPageInt"] = $config['errorDocument'].".".$config['pageExtension'];
 
 // Easy variables for theme makers
 
