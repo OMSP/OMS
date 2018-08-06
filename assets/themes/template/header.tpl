@@ -1,4 +1,6 @@
 <!-- Demonstration theme -->
+<!-- Use the version without comment lines in production, keep this just for reference. -->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,8 +8,15 @@
     <!-- Our demonstration theme uses all the meta tags, you can remove lines you don't need in yours. -->
     <meta charset="{$charset}"> <!-- Defined in the configuration file. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Used for optimization. -->
+    <!-- These easy meta tags have been made for easier development for front-end developers and designers. -->
+    {$og_title} <!-- Replaces full meta line. -->
+    {$og_img} <!-- Replaces full meta line. -->
+    {$og_alt} <!-- Replaces full meta line. -->
+    {$og_locale} <!-- Replaces full meta line. -->
+    {$meta_description} <!-- Replaces full meta line -->
+    {$meta_keywords} <!-- Replaces full meta line -->
+    <!-- Normal Meta lines can still be used with config file support, take the normal Meta or OGP line and insert the name of the Meta tag into the content="" field like this; {$author} -->
     <meta name="author" content="{$author}"> <!-- Defined in the configuration file. -->
-    <meta name="description" content="{$description}"> <!-- Defined in the configuration file. -->
     <link href="{$favicon}" rel="shortcut icon" type="image/png"> <!-- Defined in the configuration file. -->
     <title>{$title} - {$pageTitle|default:"Untitled Page"}</title> <!-- Defined in the configuration file and pagerouter. -->
 
@@ -15,7 +24,7 @@
     <!-- If required, you can add css to your theme as shown here; -->
     <link href="{$basePath}/assets/themes/{$theme}/css/theme.css" rel="stylesheet"> <!-- The basePath and theme variables are both defined inside the configuration file and should not be edited. -->
     <!-- These are OpenCMS' standard CSS files, they can be removed or edited, but it's not adviced. -->
-    {if $bootstrapyn eq 'true'}
+    {if $bootstrapyn eq 'true'} <!-- Keep this piece of code -->
     <link href="{$basePath}/assets/css/bootstrap.min.css" rel="stylesheet">
     {/if}
     <!-- As you can see, use of external stylesheets is also supported -->
@@ -35,10 +44,10 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="{$basePath}">Home</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{$basePath}/other-page">Link</a>
+                <a class="nav-link" href="/other-page">Link</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>

@@ -18,7 +18,7 @@ First of all, we really want to thank you for using OMS!
 ### Installation
 
 **OMS requires a web server running PHP 5.2 or greater, a MySQL database, HTML, CSS and JS**
-* [Download](https://github.com/OMSP/OMS/archive/master.zip) OpenCMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OMS```
+* [Download](https://github.com/OMSP/OMS/archive/master.zip) OMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OMS```
 * Start your server and visit your website (localhost or any other domain), you will automaticaly get redicted to the setup.
 * Follow all the steps in the setup, then follow the steps in the [configuration](#configuration).
 

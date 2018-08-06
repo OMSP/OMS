@@ -31,7 +31,7 @@ $config = [
     'DatabaseName'      => "omswip", // Database name you have set, can't be empty.
 
     // Theme
-    'theme'             => "default", // Enter the theme name here
+    'theme'             => "template", // Enter the theme name here
 
     // Widgets
 
@@ -44,8 +44,9 @@ $config = [
     'phpversion'        => phpversion(), // Do not touch this
     'credit'            => "OMSP", // Do not touch this
     'crediturl'         => "https://omsp.org", // Do not touch this
-    'charset'           => "utf-8",
-    'bootstrapyn'       => "true",
+    'revised'           => "Tuesday, August 7th, 2018, 0:00 pm", // Will soon get functionality to auto update
+    'charset'           => "utf-8", //
+    'bootstrapyn'       => "true", //
 
 ];
 
@@ -59,8 +60,20 @@ $config["homePageInt"] = $config['homePage'].".".$config['pageExtension'];
 $config["errorPageInt"] = $config['errorDocument'].".".$config['pageExtension'];
 
 // Easy variables for theme makers
+$config["meta_favicon"] = '<link href="'.$config['favicon'].'" rel="shortcut icon" type="image/png"/>'; // Use in theme as {$meta_keywords}.
 
 // Meta variables
-$config["og_img"] = '<meta property="og:image" content="'.$config['logo'].'" />';
-$config["og_img_alt"] = '<meta property="og:image:alt" content="'.$config['alt'].'" />';
-$config["og_locale"] = '<meta property="og:locale" content="'.$config['country_lang'].'" />';
+
+// Normal Meta
+$config["meta_keywords"] = '<meta name="keywords" content="'.$config['keywords'].'"/>'; // Use in theme as {$meta_keywords}.
+$config["meta_description"] = '<meta name="description" content="'.$config['description'].'"/>'; // Use in theme as {$meta_description}.
+$config["meta_revised"] = '<meta name="revised" content="'.$config['revised'].'"/>'; // Use in theme as {$meta_revised}.
+$config["meta_url"] = '<meta name="url" content="'.$config['basePath'].'"/>'; // Use in theme as {$meta_url}.
+$config["meta_copyright"] = '<meta name="copyright" content="'.$config['title'].'"/>'; // Use in theme as {$meta_copyright}.
+
+// OG Meta
+$config["og_title"] = '<meta property="og:title" content="'.$config['title'].'"/>'; // Use in theme as {$og_title}.
+$config["og_description"] = '<meta property="og:description" content="'.$config['description'].'"/>'; // Use in theme as {$og_description}.
+$config["og_img"] = '<meta property="og:image" content="'.$config['logo'].'"/>'; // Use in theme as {$og_img}.
+$config["og_alt"] = '<meta property="og:image:alt" content="'.$config['alt'].'"/>'; // Use in theme as {$og_alt}.
+$config["og_locale"] = '<meta property="og:locale" content="'.$config['country_lang'].'"/>'; // Use in theme as {$og_locale}.
