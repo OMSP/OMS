@@ -2,7 +2,7 @@
 
 # OMS Project
 
-A simple to use open source content management system.
+Open source content management solution.
 
 ## Getting Started
 
