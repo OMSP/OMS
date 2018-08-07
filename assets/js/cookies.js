@@ -1,12 +1,14 @@
 $(window).ready(function() {
   if (getCookie('oms_acceptedCookies') == "") {
-    $('.cookie-notice').css('display', 'block');
     $('.cookie-notice button.accept').click(function() {
-      $('.cookie-notice').css('display', 'none');
+      $('.cookie-notice').remove();
       setCookie('oms_acceptedCookies', '1', 365);
     });
     $('.cookie-notice button.read-more').click(function() {
       $('.cookie-readmore').css('display', 'block');
+    });
+    $('.cookie-readmore button.done').click(function() {
+      $('.cookie-readmore').css('display', 'none');
     });
   } else {
     $('.cookie-notice').remove();
