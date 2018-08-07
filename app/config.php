@@ -23,6 +23,13 @@ $config = [
     'homepageJumbotron' => "true", // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
     'navbaryn'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
     'usessl'            => "false", // Not functional yet.
+    
+    // Cookie warning
+    'cookieText'        => "This website uses cookies.",
+    'cookieAccept'      => "Accept",
+    'cookieReadmore'    => "Read more",
+    'cookieReadmoreText'=> "This website uses cookies.",
+    'cookieReadmoreDone'=> "Done",
 
     // Database
     'DatabaseServer'    => "localhost", // Database server you want to connect to.
