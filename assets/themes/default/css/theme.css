@@ -105,6 +105,30 @@ html, body {
 
 /*Custom scrollingbar*/
 
+/* Cookie notice */
+ .cookie-notice {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background-color: #734eff;
+}
+ .cookie-readmore {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+}
+ .cookie-readmore .window {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  color: #010101;
+  background-color: #fff;
+}
+
 /* width of the scrollbar */
 ::-webkit-scrollbar {
     width: 2px;

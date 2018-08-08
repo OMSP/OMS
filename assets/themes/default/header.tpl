@@ -16,9 +16,25 @@
     <link href="{$basePath}/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="{$basePath}/assets/themes/{$theme}/css/theme.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- JS -->
+    <script src="{$basePath}/assets/js/cookies.js"></script>
 </head>
 
 <body>
+{if $cookiewarning eq 'true'}
+<div class="cookie-notice">
+    {$cookieText}
+    <button class="accept">{$cookieAccept}</button>
+    <button class="read-more">{$cookieReadmore}</button>
+</div>
+<div class="cookie-readmore">
+    <div class="window">
+        {$cookieReadmoreText}
+        <button class="done">{$cookieReadmoreDone}</button>
+    </div>
+</div>
+{/if}
 <!-- Navigation bar, you can add or remove items, but be aware that you might break our code -->
 {if $navbaryn eq 'true'}
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
