@@ -22,6 +22,7 @@ $config = [
     'credityn'          => "true", // Credits, set to true if you want to add credits to OpenCMS in your footer.
     'homepageJumbotron' => "true", // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
     'navbaryn'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
+    'cookiewarning'     => "true", // Cookie warning, set to true if you want to add a cookie warning to OpenCMS.
     'usessl'            => "false", // Not functional yet.
     
     // Cookie warning
