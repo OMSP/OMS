@@ -22,13 +22,13 @@
 {if $cookiewarning eq 'true'}
 <div class="cookie-notice">
     {$cookieText}
-    <button class="accept">{$cookieAccept}</button>
-    <button class="read-more">{$cookieReadmore}</button>
+    <button class="accept">{$lang['cookieAccept']}</button>
+    <button class="read-more">{$lang['cookieReadmore']}</button>
 </div>
 <div class="cookie-readmore">
     <div class="window">
-        {$cookieReadmoreText}
-        <button class="done">{$cookieReadmoreDone}</button>
+        {$lang['cookieReadmoreText']}
+        <button class="done">{$lang['cookieReadmoreDone']}</button>
     </div>
 </div>
 {/if}
