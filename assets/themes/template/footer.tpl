@@ -13,8 +13,10 @@
 {if $bootstrapyn eq 'true'}
 <script src="{$basePath}/assets/js/bootstrap.bundle.min.js"></script>
 {/if}
+<script src="{$basePath}/assets/js/cookies.js"></script>
 <!-- If required, you can add js to your theme as shown here; -->
 <script src="{$basePath}/assets/themes/{$theme}/js/theme.js"></script>
+
 
 <!-- These are the standard closing tags that close up every single page on the site, this is why you don't need to add them on the pages themselves. -->
 </body> <!-- Closing the body tag that was openned in header.tpl -->

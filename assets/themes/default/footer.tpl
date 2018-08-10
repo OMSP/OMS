@@ -9,5 +9,6 @@
 <script src="{$basePath}/assets/js/jquery.min.js"></script>
 <script src="{$basePath}/assets/themes/{$theme}/js/theme.js"></script>
 <script src="{$basePath}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="{$basePath}/assets/js/cookies.js"></script>
 </body>
 </html>

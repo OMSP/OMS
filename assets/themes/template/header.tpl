@@ -32,6 +32,19 @@
 </head>
 
 <body>
+  {if $cookiewarning eq 'true'}
+  <div class="cookie-notice">
+      {$cookieText}
+      <button class="accept">{$cookieAccept}</button>
+      <button class="read-more">{$cookieReadmore}</button>
+  </div>
+  <div class="cookie-readmore">
+      <div class="window">
+          {$cookieReadmoreText}
+          <button class="done">{$cookieReadmoreDone}</button>
+      </div>
+  </div>
+  {/if}
 <!-- Navigation bar -->
 <!-- You can add HtMl, classes and change text, just like you would do on any website -->
 {if $navbaryn eq 'true'}

@@ -16,9 +16,6 @@
     <link href="{$basePath}/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="{$basePath}/assets/themes/{$theme}/css/theme.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    
-    <!-- JS -->
-    <script src="{$basePath}/assets/js/cookies.js"></script>
 </head>
 
 <body>
