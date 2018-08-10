@@ -24,6 +24,7 @@ $config = [
     'navbaryn'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
     'cookiewarning'     => "true", // Cookie warning, set to true if you want to add a cookie warning to OpenCMS.
     'usessl'            => "false", // Not functional yet.
+    'lang'              => "en", //set a supported country code (en, nl).
 
     // Database
     'DatabaseServer'    => "localhost", // Database server you want to connect to.
