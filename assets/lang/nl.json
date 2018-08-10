@@ -1,3 +1,9 @@
 {
-  "searchfield" : "Zoeken"
+"_comment" : "cookies",
+
+  "cookieText"         : "Deze website maakt gebruik van cookies.",
+  "cookieAccept"       : "Accepteren",
+  "cookieReadmore"     : "Meer lezen",
+  "cookieReadmoreText" : "Deze website maakt gebruik van cookies.",
+  "cookieReadmoreDone" : "Terug"
 }

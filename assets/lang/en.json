@@ -1,3 +1,9 @@
 {
-  "searchfield" : "Search"
+"_comment" : "cookies",
+
+  "cookieText"         : "This website uses cookies.",
+  "cookieAccept"       : "Accept",
+  "cookieReadmore"     : "Read more",
+  "cookieReadmoreText" : "This website uses cookies.",
+  "cookieReadmoreDone" : "Done"
 }
