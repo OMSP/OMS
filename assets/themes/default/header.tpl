@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
 {if $cookiewarning eq 'true'}
 <div class="cookie-notice">
     {$cookieText}
@@ -32,6 +33,7 @@
     </div>
 </div>
 {/if}
+
 <!-- Navigation bar, you can add or remove items, but be aware that you might break our code -->
 {if $navbaryn eq 'true'}
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">

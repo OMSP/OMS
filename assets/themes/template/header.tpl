@@ -16,6 +16,7 @@
     {$meta_description} <!-- Replaces full meta line -->
     {$meta_keywords} <!-- Replaces full meta line -->
     <!-- Normal Meta lines can still be used with config file support, take the normal Meta or OGP line and insert the name of the Meta tag into the content="" field like this; {$author} -->
+    <!-- You can find a full list of these variables on our website. -->
     <meta name="author" content="{$author}"> <!-- Defined in the configuration file. -->
     <link href="{$favicon}" rel="shortcut icon" type="image/png"> <!-- Defined in the configuration file. -->
     <title>{$title} - {$pageTitle|default:"Untitled Page"}</title> <!-- Defined in the configuration file and pagerouter. -->
@@ -24,7 +25,8 @@
     <!-- If required, you can add css to your theme as shown here; -->
     <link href="{$basePath}/assets/themes/{$theme}/css/theme.css" rel="stylesheet"> <!-- The basePath and theme variables are both defined inside the configuration file and should not be edited. -->
     <!-- These are OpenCMS' standard CSS files, they can be removed or edited, but it's not adviced. -->
-    {if $bootstrapyn eq 'true'} <!-- Keep this piece of code -->
+    <!-- Bootstrap, please make sure to not remove this code from your theme! -->
+    {if $bootstrapyn eq 'true'}
     <link href="{$basePath}/assets/css/bootstrap.min.css" rel="stylesheet">
     {/if}
     <!-- As you can see, use of external stylesheets is also supported -->
@@ -32,19 +34,22 @@
 </head>
 
 <body>
-  {if $cookiewarning eq 'true'}
-  <div class="cookie-notice">
-      {$cookieText}
-      <button class="accept">{$cookieAccept}</button>
-      <button class="read-more">{$cookieReadmore}</button>
-  </div>
-  <div class="cookie-readmore">
-      <div class="window">
-          {$cookieReadmoreText}
-          <button class="done">{$cookieReadmoreDone}</button>
-      </div>
-  </div>
-  {/if}
+
+<!-- Cookie warning, please make sure to not remove this code from your theme! -->
+{if $cookiewarning eq 'true'}
+<div class="cookie-notice">
+    {$cookieText}
+    <button class="accept">{$lang['cookieAccept']}</button>
+    <button class="read-more">{$lang['cookieReadmore']}</button>
+</div>
+<div class="cookie-readmore">
+    <div class="window">
+        {$lang['cookieReadmoreText']}
+        <button class="done">{$lang['cookieReadmoreDone']}</button>
+    </div>
+</div>
+{/if}
+
 <!-- Navigation bar -->
 <!-- You can add HtMl, classes and change text, just like you would do on any website -->
 {if $navbaryn eq 'true'}

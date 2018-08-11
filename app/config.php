@@ -16,9 +16,8 @@ $config = [
 
     // General
     'basePath'          => "http://localhost", // Your website url and installation path, ex; http://localhost/oms.
-    'homePage'          => "index", // Ability to change the homePage file will come in a future update.
-    'errorDocument'     => "error", // Ability to change the homePage file will come in a future update.
-    'pageExtension'     => "tpl", // Standard Smarty template extension
+    'homePage'          => "index", // Home page, do not add the page extension.
+    'errorDocument'     => "error", // Error page, do not add the page extension.
     'credityn'          => "true", // Credits, set to true if you want to add credits to OpenCMS in your footer.
     'homepageJumbotron' => "true", // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
     'navbaryn'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
@@ -46,6 +45,7 @@ $config = [
     'credit'            => "OMSP", // Do not touch this
     'crediturl'         => "https://omsp.org", // Do not touch this
     'revised'           => "Tuesday, August 7th, 2018, 0:00 pm", // Will soon get functionality to auto update
+    'pageExtension'     => "tpl", // Standard Smarty template extension
     'charset'           => "utf-8", //
     'bootstrapyn'       => "true", //
 

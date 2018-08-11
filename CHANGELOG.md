@@ -5,13 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
 ## [1.0.0] - Yet to release
 ### Added
 - Setup system for easy configuration.
-- Central configuration file added.
+- Central configuration file.
 - Error handler capable of handling all error codes.
-- Easy to use page router Klein added.
-- Whoops PHP error handler added.
-- More to be added
+- Klein router.
+- Whoops PHP error handler.
+- Smarty template engine.
+- Maintenance mode.
+- Standard theme demonstrating all of OMS' functions.
+- Template theme that can be used for building themes (also contains comments explaining how to build a theme).
+
+### Minor additions
+- Ability to add a name, description and other personalization such as a logo to the website.
+- Ability to change the error document, whilst keeping functionality.
