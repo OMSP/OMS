@@ -25,10 +25,11 @@ First of all, we really want to thank you for using OMS!
 ### Setup
 
 * First, enter your database credicals, then go to the next step.
-* Second, fill in all the next fields to personalize your website, then press ```next step```.
+* Second, fill in all the next fields to personalize your website, now proceed to the next step.
 * Third, fill in all the configuration fields, everything will automaticly be filled in, if anything is wrong you should correct it.
-* then for the last step, you have to create a root user. this user is very important, because you can control everything with it.
-* you have now successfully configured OMS, for additional configuration steps, please refer to [Configuration](#configuration).
+* Now for the last step, you have to create a root user. this user is very important, because you can control everything with it.
+
+You have now successfully configured OMS, for additional configuration steps, please refer to [configuration](#configuration).
 
 ### Configuration
 
@@ -44,7 +45,9 @@ First of all, we really want to thank you for using OMS!
 
 ### Bootstrap
 
-* We use Bootstrap to style our default given theme, you can choose to not use bootstrap, but it is highly recommended.
+We use Bootstrap to style our default given theme, you can choose to not use bootstrap, but it is highly recommended.
+
+Find out more about Bootstrap and how it can help improve your site [here](https://getbootstrap.com).
 
 ## Feedback
 
