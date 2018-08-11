@@ -26,7 +26,7 @@ First of all, we really want to thank you for using OMS!
 
 * First, enter your database credicals, then go to the next step.
 * Second, fill in all the next fields to personalize your website, then press ```next step```.
-* Third, fill in all the configuration fields, everything will automaticly be filled in, but if anything is wrong you should correct it.
+* Third, fill in all the configuration fields, everything will automaticly be filled in, if anything is wrong you should correct it.
 * then for the last step, you have to create a root user. this user is very important, because you can control everything with it.
 * you have now successfully configured OMS, for additional configuration steps, please refer to [Configuration](#configuration).
 
