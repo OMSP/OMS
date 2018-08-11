@@ -20,7 +20,15 @@ First of all, we really want to thank you for using OMS!
 **OMS requires a web server running PHP 5.2 or greater, a MySQL database, HTML, CSS and JS**
 * [Download](https://github.com/OMSP/OMS/archive/master.zip) OMS or GIT clone it into a folder: ```git clone   https://github.com/OMSP/OMS```
 * Start your server and visit your website (localhost or any other domain), you will automaticaly get redicted to the setup.
-* Follow all the steps in the setup, then follow the steps in the [configuration](#configuration).
+* Follow all the steps in the [setup](#setup), then follow the steps in the [configuration](#configuration).
+
+### Setup
+
+* First, enter your database credicals, then go to the next step.
+* Second, fill in all the next fields to personalize your website, then press ```next step```.
+* Third, fill in all the configuration fields, everything will automaticly be filled in, but if anything is wrong you should correct it.
+* then for the last step, you have to create a root user. this user is very important, because you can control everything with it.
+* you have now successfully configured OMS, for additional configuration steps, please refer to [Configuration](#configuration).
 
 ### Configuration
 
