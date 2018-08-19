@@ -69,6 +69,12 @@ Experiencing problems regarding the installation? Visit our [Discord](https://di
 * [Klein](https://github.com/klein/klein.php) - Router used
 * [Whoops](https://github.com/filp/whoops) - PHP error handler used
 
+## Support
+
+* [Discord](https://discord.gg/v2pQTFc)
+* [Documentation](https://docs.omsp.org)
+* [Official site](https://omsp.org)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
