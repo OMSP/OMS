@@ -38,14 +38,14 @@
 <!-- Cookie warning, please make sure to not remove this code from your theme! -->
 {if $cookiewarning eq 'true'}
 <div class="cookie-notice">
-    {$cookieText}
-    <button class="accept">{$cookieAccept}</button>
-    <button class="read-more">{$cookieReadmore}</button>
+    {$langString['cookieText']}
+    <button class="accept">{$langString['cookieAccept']}</button>
+    <button class="read-more">{$langString['cookieReadmore']}</button>
 </div>
 <div class="cookie-readmore">
     <div class="window">
-        {$cookieReadmoreText}
-        <button class="done">{$cookieReadmoreDone}</button>
+        {$langString['cookieReadmoreText']}
+        <button class="done">{$langString['cookieReadmoreDone']}</button>
     </div>
 </div>
 {/if}
