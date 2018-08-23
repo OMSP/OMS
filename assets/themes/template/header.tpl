@@ -2,7 +2,7 @@
 <!-- Use the version without comment lines in production, keep this just for reference. -->
 
 <!doctype html>
-<html lang="{$lang}">
+<html lang="en">
 <head>
     <!-- The meta tags your theme uses. Our config files offers configuration for every single one of them. -->
     <!-- Our demonstration theme uses all the meta tags, you can remove lines you don't need in yours. -->
@@ -38,14 +38,14 @@
 <!-- Cookie warning, please make sure to not remove this code from your theme! -->
 {if $cookiewarning eq 'true'}
 <div class="cookie-notice">
-    {$langString['cookieText']}
-    <button class="accept">{$langString['cookieAccept']}</button>
-    <button class="read-more">{$langString['cookieReadmore']}</button>
+    {$cookieText}
+    <button class="accept">{$cookieAccept}</button>
+    <button class="read-more">{$cookieReadmore}</button>
 </div>
 <div class="cookie-readmore">
     <div class="window">
-        {$langString['cookieReadmoreText']}
-        <button class="done">{$langString['cookieReadmoreDone']}</button>
+        {$cookieReadmoreText}
+        <button class="done">{$cookieReadmoreDone}</button>
     </div>
 </div>
 {/if}
