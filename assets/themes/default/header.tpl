@@ -1,7 +1,7 @@
 <!--Default-->
 
 <!doctype html>
-<html lang="en">
+<html lang="{$lang}">
 <head>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -22,14 +22,14 @@
 
 {if $cookiewarning eq 'true'}
 <div class="cookie-notice">
-    {$cookieText}
-    <button class="accept">{$lang['cookieAccept']}</button>
-    <button class="read-more">{$lang['cookieReadmore']}</button>
+    {$langString['cookieText']}
+    <button class="accept">{$langString['cookieAccept']}</button>
+    <button class="read-more">{$langString['cookieReadmore']}</button>
 </div>
 <div class="cookie-readmore">
     <div class="window">
-        {$lang['cookieReadmoreText']}
-        <button class="done">{$lang['cookieReadmoreDone']}</button>
+        {$langString['cookieReadmoreText']}
+        <button class="done">{$langString['cookieReadmoreDone']}</button>
     </div>
 </div>
 {/if}

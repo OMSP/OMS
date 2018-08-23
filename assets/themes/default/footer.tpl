@@ -2,7 +2,7 @@
 <footer>
 <div class="footerOMS">
   <div class="container">
-    <span class="text-muted">&copy; {$title} {$year} {if $credityn eq 'true'}| Powered by <a href="{$crediturl}">{$credit}</a>{/if}
+    <span class="text-muted">&copy; {$title} {$year} {if $credityn eq 'true'}| Powered by <a href="{$crediturl}">{$credit}</a>{/if}</span>
   </div>
 </div>
 </footer>

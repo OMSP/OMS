@@ -88,7 +88,7 @@ foreach ($files as $line) {
     }
 }
 $service->smarty->assign("siteLinks", $siteLinks);
-$service->smarty->assign($lang);
+$service->smarty->assign("langString", $lang);
 
 // Run!
 $klein->dispatch();

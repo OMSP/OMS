@@ -1,17 +1,20 @@
 <footer> <!-- Footer opening tag -->
-<div class="footerOMS"> <!-- Example class, you can remove this and place ones of your own -->
-  <div class="container"> <!-- Standard bootstrap container class -->
-    <span class="text-muted">&copy; {$title} {$year} {if $credityn eq 'true'} <!-- Smarty's way of checking if the variable is true via an if statment. -->
-    | Powered by <a href="{$crediturl}">{$credit}</a>{/if} <!-- You can use all the configuration file variables inside HtML by like this {*$variable*} Just without the '*' as these create comments. -->
-  </div> <!-- FooterOMS div closing tag -->
-</div> <!-- Container div closing tag -->
+    <div class="footerOMS"> <!-- Example class, you can remove this and place ones of your own -->
+        <div class="container"> <!-- Standard bootstrap container class -->
+            <span class="text-muted">
+                &copy; {$title} {$year} {if $credityn eq 'true'} <!-- Smarty's way of checking if the variable is true via an if statment. -->
+                    | Powered by <a href="{$crediturl}">{$credit}</a>{/if}
+                <!-- You can use all the configuration file variables inside HtML by like this {*$variable*} Just without the '*' as these create comments. -->
+            </span>
+        </div> <!-- FooterOMS div closing tag -->
+    </div> <!-- Container div closing tag -->
 </footer> <!-- Footer closing tag -->
 
 <!-- Javascript -->
 <!-- These are OpenCMS' standard Javascript files, they can be removed or edited, but it's not adviced. -->
 <script src="{$basePath}/assets/js/jquery.min.js"></script> <!-- Jquery must be loaded before your JS when using Jquery inside your JS files. -->
 {if $bootstrapyn eq 'true'}
-<script src="{$basePath}/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{$basePath}/assets/js/bootstrap.bundle.min.js"></script>
 {/if}
 <script src="{$basePath}/assets/js/cookies.js"></script>
 <!-- If required, you can add js to your theme as shown here; -->
