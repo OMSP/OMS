@@ -13,7 +13,7 @@ if (substr($actual_link, -1) == '/') {
   $actual_link = substr($actual_link, 0, -1);
 }
 if (!isset($_POST['step'])) {
-
+  $step = '1';
 } elseif (isset($_POST['step'])) {
   $step = $_POST['step'];
   if ($step == '1') {
@@ -198,10 +198,10 @@ if (!isset($_POST['step'])) {
     }
 
   } else {
-
+    $step = '1';
   }
 } else {
-
+  $step = '1';
 }
 
 //STEP 1: DATABASE
