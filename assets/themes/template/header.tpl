@@ -26,7 +26,7 @@
     <link href="{$basePath}/assets/themes/{$theme}/css/theme.css" rel="stylesheet"> <!-- The basePath and theme variables are both defined inside the configuration file and should not be edited. -->
     <!-- These are OpenCMS' standard CSS files, they can be removed or edited, but it's not adviced. -->
     <!-- Bootstrap, please make sure to not remove this code from your theme! -->
-    {if $bootstrapyn eq 'true'}
+    {if $bootstrapyn eq true}
     <link href="{$basePath}/assets/css/bootstrap.min.css" rel="stylesheet">
     {/if}
     <!-- As you can see, use of external stylesheets is also supported -->
@@ -36,7 +36,7 @@
 <body>
 
 <!-- Cookie warning, please make sure to not remove this code from your theme! -->
-{if $cookiewarning eq 'true'}
+{if $cookiewarning eq true}
 <div class="cookie-notice">
     {$langString['cookieText']}
     <button class="accept">{$langString['cookieAccept']}</button>
@@ -52,7 +52,7 @@
 
 <!-- Navigation bar -->
 <!-- You can add HtMl, classes and change text, just like you would do on any website -->
-{if $navbaryn eq 'true'}
+{if $navbaryn eq true}
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="/">{$title}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">

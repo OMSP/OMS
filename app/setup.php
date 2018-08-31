@@ -127,11 +127,11 @@ if (!isset($_POST['step'])) {
             \'basePath\'          => "'.$conf_host.'", // Your website url and installation path, ex; http://localhost/oms.
             \'homePage\'          => "index", // Home page, do not add the page extension.
             \'errorDocument\'     => "error", // Error page, do not add the page extension.
-            \'credityn\'          => "true", // Credits, set to true if you want to add credits to OpenCMS in your footer.
-            \'homepageJumbotron\' => "true", // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
-            \'navbaryn\'          => "true", // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
-            \'cookiewarning\'     => "true", // Cookie warning, set to true if you want to add a cookie warning to OpenCMS.
-            \'usessl\'            => "false", // Not functional yet.
+            \'credityn\'          => true, // Credits, set to true if you want to add credits to OpenCMS in your footer.
+            \'homepageJumbotron\' => true, // Homepage Jumbotron, set to true if you want to add a homepage jumbotron to OpenCMS on your homepage.
+            \'navbaryn\'          => true, // Site navigation bar, set to true if you want to add a navigation bar to OpenCMS.
+            \'cookiewarning\'     => true, // Cookie warning, set to true if you want to add a cookie warning to OpenCMS.
+            \'usessl\'            => false, // Not functional yet.
             \'lang\'              => "'.$conf_lang.'", //set a supported country code (en, nl).
 
             // Database
@@ -146,7 +146,7 @@ if (!isset($_POST['step'])) {
             // Widgets
 
             // Advanced, WARNING DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU\'RE DOING!
-            \'debug\'             => "true", // WARNING; Using this on live sites is dangerous, as it exposes PHP code!
+            \'debug\'             => true, // WARNING; Using this on live sites is dangerous, as it exposes PHP code!
             \'corever\'           => "1", // Do not touch this
             \'corevernr\'         => "20983", // Do not touch this
             \'corestatus\'        => "dev", // Do not touch this
@@ -157,7 +157,7 @@ if (!isset($_POST['step'])) {
             \'revised\'           => "Tuesday, August 7th, 2018, 0:00 pm", // Will soon get functionality to auto update
             \'pageExtension\'     => "tpl", // Standard Smarty template extension
             \'charset\'           => "utf-8", //
-            \'bootstrapyn\'       => "true", //
+            \'bootstrapyn\'       => true, //
 
         ];
 

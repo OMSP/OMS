@@ -22,7 +22,7 @@ require_once APP_DIR . '/vendor/autoload.php';
 require_once APP_DIR . '/config.php';
 
 // Enable debug system if in development mode
-$DEBUG_MODE = !empty($config["debug"]) && strtolower($config["debug"]) == "true";
+$DEBUG_MODE = !empty($config["debug"]) && strtolower($config["debug"]) == true;
 if($DEBUG_MODE) {
     $whoops = new \Whoops\Run;
     $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);

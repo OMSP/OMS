@@ -3,7 +3,7 @@
 <main role="main" class="container">
 
   <div class="starter-template">
-      <h1>ERROR {$errorCode}</h1>
+      <h1>Error {$errorCode}</h1>
       <p class="lead">Oh no.<br> Something went wrong!</p>
   </div>
 
