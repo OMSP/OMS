@@ -1,4 +1,7 @@
-[![Github All Releases](https://img.shields.io/github/downloads/OMSP/OMS/total.svg?style=for-the-badge)](https://github.com/OMSP/OMS)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/OMSP/OMS.svg)](https://github.com/OMSP/OMS)
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/OMSP/OMS.svg)](https://github.com/OMSP/OMS)
+[![GitHub last commit](https://img.shields.io/github/last-commit/OMSP/OMS.svg)](https://github.com/OMSP/OMS)
+
 
 # OMS Project
 
