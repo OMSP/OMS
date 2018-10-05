@@ -6,5 +6,5 @@ if (!file_exists('app/config.php')) {
 } else {
   require_once __DIR__ . '/app/core.php';
 }
-
+//needed an updated for heroku to work...
 ?>
